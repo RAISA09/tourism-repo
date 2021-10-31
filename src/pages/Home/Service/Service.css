@@ -1,0 +1,21 @@
+/* service css style  */
+
+.card{
+    background-color: lightgray;
+}
+
+
+
+
+
+.card:hover{
+   background-color: gray;
+   color: white;
+   position: relative;
+}
+
+
+.service-text:hover{
+    color: lightslategray
+}
+
