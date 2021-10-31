@@ -10,7 +10,7 @@ const AddUser = () => {
 
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/addServices', data)
+        axios.post('https://chilling-vault-19684.herokuapp.com/addServices', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert("Added successfully")

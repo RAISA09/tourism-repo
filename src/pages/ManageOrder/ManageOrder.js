@@ -11,7 +11,7 @@ const ManageOrder = () => {
         const savedCart = getStoredCart();
         data.order = savedCart;
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://chilling-vault-19684.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -11,7 +11,7 @@ const Services = () => {
     const [cart, setCart] = useCarts(services);
 
     useEffect(() => {
-        fetch('http://localhost:5000/addServices')
+        fetch('https://chilling-vault-19684.herokuapp.com/addServices')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
